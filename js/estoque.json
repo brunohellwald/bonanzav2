@@ -1,0 +1,629 @@
+{
+  "produtos": [
+    {
+      "nome": "Ignite V50",
+      "sabores": [
+        {
+          "sabor": "Aloe Grape",
+          "quantidade": 1
+        },
+        {
+          "sabor": "Banana Ice",
+          "quantidade": 0
+        },
+        {
+          "sabor": "Blue Cotton Candy",
+          "quantidade": 1
+        },
+        {
+          "sabor": "Blue Dream",
+          "quantidade": 3
+        },
+        {
+          "sabor": "Blue Raspberry Ice",
+          "quantidade": 0
+        },
+        {
+          "sabor": "Blueberry Ice",
+          "quantidade": 0
+        },
+        {
+          "sabor": "Grape Ice",
+          "quantidade": 0
+        },
+        {
+          "sabor": "Green Apple",
+          "quantidade": 4
+        },
+        {
+          "sabor": "Icy Mint",
+          "quantidade": 0
+        },
+        {
+          "sabor": "Menthol",
+          "quantidade": 1
+        },
+        {
+          "sabor": "Mixed Berries",
+          "quantidade": 1
+        },
+        {
+          "sabor": "Peach Mango Watermelon",
+          "quantidade": 0
+        },
+        {
+          "sabor": "Peach Raspberry",
+          "quantidade": 1
+        },
+        {
+          "sabor": "Strawberry Banana",
+          "quantidade": 2
+        },
+        {
+          "sabor": "Strawberry Kiwi",
+          "quantidade": 1
+        },
+        {
+          "sabor": "Strawberry Mango",
+          "quantidade": 1
+        },
+        {
+          "sabor": "Strawberry Watermelon",
+          "quantidade": 0
+        },
+        {
+          "sabor": "Watermelon Bubble Gum",
+          "quantidade": 0
+        },
+        {
+          "sabor": "Watermelon Ice",
+          "quantidade": 0
+        },
+        {
+          "sabor": "Watermelon Mix",
+          "quantidade": 0
+        }
+      ]
+    },
+    {
+      "nome": "Ignite V80",
+      "sabores": [
+        {
+          "sabor": "Banana Cherry",
+          "quantidade": 4
+        },
+        {
+          "sabor": "Banana Ice",
+          "quantidade": 4
+        },
+        {
+          "sabor": "Blueberry Ice",
+          "quantidade": 3
+        },
+        {
+          "sabor": "Blueberry Lemon",
+          "quantidade": 6
+        },
+        {
+          "sabor": "Cactus",
+          "quantidade": 5
+        },
+        {
+          "sabor": "Grape Ice",
+          "quantidade": 5
+        },
+        {
+          "sabor": "Grapefruit Mint",
+          "quantidade": 3
+        },
+        {
+          "sabor": "Green Apple",
+          "quantidade": 3
+        },
+        {
+          "sabor": "Icy Mint",
+          "quantidade": 5
+        },
+        {
+          "sabor": "Menthol",
+          "quantidade": 2
+        },
+        {
+          "sabor": "Passion Fruit Sour Kiwi",
+          "quantidade": 5
+        },
+        {
+          "sabor": "Strawberry Ice",
+          "quantidade": 4
+        },
+        {
+          "sabor": "Strawberry Kiwi",
+          "quantidade": 1
+        },
+        {
+          "sabor": "Tobacco",
+          "quantidade": 0
+        },
+        {
+          "sabor": "Watermelon Ice",
+          "quantidade": 4
+        }
+      ]
+    },
+    {
+      "nome": "Ignite V150",
+      "sabores": [
+        {
+          "sabor": "Berry Blast",
+          "quantidade": 1
+        },
+        {
+          "sabor": "Blueberry Ice",
+          "quantidade": 0
+        },
+        {
+          "sabor": "Cherry Banana",
+          "quantidade": 2
+        },
+        {
+          "sabor": "Cherry Watermelon Ice",
+          "quantidade": 3
+        },
+        {
+          "sabor": "Dragon Fruit Lemonade",
+          "quantidade": 1
+        },
+        {
+          "sabor": "Green Apple",
+          "quantidade": 2
+        },
+        {
+          "sabor": "Icy Mint",
+          "quantidade": 1
+        },
+        {
+          "sabor": "Menthol",
+          "quantidade": 1
+        },
+        {
+          "sabor": "Peppermint & Cream",
+          "quantidade": 1
+        },
+        {
+          "sabor": "Pineapple Ice",
+          "quantidade": 2
+        },
+        {
+          "sabor": "Sour Raspberry",
+          "quantidade": 0
+        },
+        {
+          "sabor": "Strawberry Apple Watermelon",
+          "quantidade": 2
+        },
+        {
+          "sabor": "Strawberry Ice",
+          "quantidade": 0
+        },
+        {
+          "sabor": "Strawberry Kiwi",
+          "quantidade": 3
+        },
+        {
+          "sabor": "Watermelon Ice",
+          "quantidade": 0
+        },
+        {
+          "sabor": "Watermelon Mix",
+          "quantidade": 0
+        }
+      ]
+    },
+    {
+      "nome": "ELFBAR BC4000",
+      "sabores": [
+        {
+          "sabor": "Blue Razz Ice",
+          "quantidade": 0
+        },
+        {
+          "sabor": "Blueberry Ice",
+          "quantidade": 0
+        },
+        {
+          "sabor": "Cola",
+          "quantidade": 0
+        },
+        {
+          "sabor": "Cranberry Grape",
+          "quantidade": 1
+        },
+        {
+          "sabor": "Green Apple",
+          "quantidade": 0
+        },
+        {
+          "sabor": "Kiwi Passion Fruit Guava",
+          "quantidade": 0
+        },
+        {
+          "sabor": "Lemon Mint",
+          "quantidade": 0
+        },
+        {
+          "sabor": "Mango Peach",
+          "quantidade": 0
+        },
+        {
+          "sabor": "Passion Fruit Orange Guava",
+          "quantidade": 2
+        },
+        {
+          "sabor": "Peach Mango Watermelon",
+          "quantidade": 0
+        },
+        {
+          "sabor": "Sakura Grape",
+          "quantidade": 1
+        },
+        {
+          "sabor": "Strawberry Kiwi",
+          "quantidade": 0
+        },
+        {
+          "sabor": "Strawberry Mango",
+          "quantidade": 0
+        },
+        {
+          "sabor": "Triple Berry Ice",
+          "quantidade": 0
+        },
+        {
+          "sabor": "Watermelon Ice",
+          "quantidade": 1
+        }
+      ]
+    },
+    {
+      "nome": "ELFBAR TE5000",
+      "sabores": [
+        {
+          "sabor": "Black Mint Ice",
+          "quantidade": 1
+        },
+        {
+          "sabor": "Blueberry Ice",
+          "quantidade": 0
+        },
+        {
+          "sabor": "Cotton Candy",
+          "quantidade": 1
+        },
+        {
+          "sabor": "Grape",
+          "quantidade": 0
+        },
+        {
+          "sabor": "Grape Honeday",
+          "quantidade": 2
+        },
+        {
+          "sabor": "Gummy Bear",
+          "quantidade": 1
+        },
+        {
+          "sabor": "Pineapple Mango Orange",
+          "quantidade": 0
+        },
+        {
+          "sabor": "Pink Lemonade",
+          "quantidade": 1
+        },
+        {
+          "sabor": "Strawberry Ice",
+          "quantidade": 0
+        },
+        {
+          "sabor": "Strawberry Ice Cream",
+          "quantidade": 1
+        },
+        {
+          "sabor": "Watermelon Ice",
+          "quantidade": 0
+        },
+        {
+          "sabor": "Watermelon Lemon Ice",
+          "quantidade": 0
+        }
+      ]
+    },
+    {
+      "nome": "ELFBAR BC10000",
+      "sabores": [
+        {
+          "sabor": "Americano Ice",
+          "quantidade": 0
+        },
+        {
+          "sabor": "Apple Ice",
+          "quantidade": 0
+        },
+        {
+          "sabor": "Blackberry Cranberry",
+          "quantidade": 2
+        },
+        {
+          "sabor": "Blue Razz Ice",
+          "quantidade": 1
+        },
+        {
+          "sabor": "Blueberry Gami",
+          "quantidade": 2
+        },
+        {
+          "sabor": "Blueberry Ice",
+          "quantidade": 1
+        },
+        {
+          "sabor": "Blueberry Mint",
+          "quantidade": 0
+        },
+        {
+          "sabor": "Cherry Watermelon",
+          "quantidade": 2
+        },
+        {
+          "sabor": "Grape Cherry",
+          "quantidade": 0
+        },
+        {
+          "sabor": "Honeydew Duo Ice",
+          "quantidade": 1
+        },
+        {
+          "sabor": "Lemon Lime",
+          "quantidade": 0
+        },
+        {
+          "sabor": "Miami Mint",
+          "quantidade": 1
+        },
+        {
+          "sabor": "Peach Ice",
+          "quantidade": 0
+        },
+        {
+          "sabor": "Pineapple Ice",
+          "quantidade": 0
+        },
+        {
+          "sabor": "Red Berry Cherry",
+          "quantidade": 0
+        },
+        {
+          "sabor": "Strawberry Banana",
+          "quantidade": 2
+        },
+        {
+          "sabor": "Strawberry Ice",
+          "quantidade": 2
+        },
+        {
+          "sabor": "Watermelon Ice",
+          "quantidade": 1
+        }
+      ]
+    },
+    {
+      "nome": "Oxbar G8000",
+      "sabores": [
+        {
+          "sabor": "Avocado Nana",
+          "quantidade": 1
+        },
+        {
+          "sabor": "Cool Mint",
+          "quantidade": 1
+        },
+        {
+          "sabor": "Cranberry Grape",
+          "quantidade": 0
+        },
+        {
+          "sabor": "Cranberry Lemon Ice",
+          "quantidade": 0
+        },
+        {
+          "sabor": "Fruit Paradise",
+          "quantidade": 1
+        },
+        {
+          "sabor": "Kiwi Passion Kick",
+          "quantidade": 0
+        },
+        {
+          "sabor": "Lemon Mint",
+          "quantidade": 1
+        },
+        {
+          "sabor": "Mad Blue",
+          "quantidade": 0
+        },
+        {
+          "sabor": "Mango Peach",
+          "quantidade": 0
+        },
+        {
+          "sabor": "Peach Blue Razz",
+          "quantidade": 0
+        },
+        {
+          "sabor": "Peach Ice",
+          "quantidade": 1
+        },
+        {
+          "sabor": "Rainbow Drop",
+          "quantidade": 1
+        },
+        {
+          "sabor": "Sakura Grape",
+          "quantidade": 1
+        },
+        {
+          "sabor": "Sea Salt Lemon",
+          "quantidade": 0
+        },
+        {
+          "sabor": "Strawberry Ice",
+          "quantidade": 0
+        },
+        {
+          "sabor": "Strawberry Watermelon",
+          "quantidade": 2
+        },
+        {
+          "sabor": "StrawNana",
+          "quantidade": 0
+        },
+        {
+          "sabor": "Sunset Watermelon",
+          "quantidade": 1
+        },
+        {
+          "sabor": "Triple Melon Blast",
+          "quantidade": 1
+        },
+        {
+          "sabor": "Virgina Tobacco",
+          "quantidade": 0
+        }
+      ]
+    },
+    {
+      "nome": "Oxbar PRO 10000",
+      "sabores": [
+        {
+          "sabor": "Apple Melon",
+          "quantidade": 1
+        },
+        {
+          "sabor": "Cranberry Lemon Ice",
+          "quantidade": 1
+        },
+        {
+          "sabor": "Extreme Peppermint",
+          "quantidade": 0
+        },
+        {
+          "sabor": "Fanta Strawberry",
+          "quantidade": 1
+        },
+        {
+          "sabor": "Mighty Mint",
+          "quantidade": 0
+        },
+        {
+          "sabor": "Pineapple Lemon Ice",
+          "quantidade": 1
+        },
+        {
+          "sabor": "Raspberry Mango",
+          "quantidade": 0
+        },
+        {
+          "sabor": "Strawberry Ice",
+          "quantidade": 0
+        },
+        {
+          "sabor": "Strawberry Watermelon Ice",
+          "quantidade": 0
+        },
+        {
+          "sabor": "Watermelon BBG",
+          "quantidade": 1
+        },
+        {
+          "sabor": "Watermelon Bubble Gum",
+          "quantidade": 1
+        }
+      ]
+    },
+    {
+      "nome": "Lost Mary MO10000",
+      "sabores": [
+        {
+          "sabor": "Apple Guava",
+          "quantidade": 2
+        },
+        {
+          "sabor": "Blue Dragon Fruit Peach",
+          "quantidade": 3
+        },
+        {
+          "sabor": "Blue Razz P&B",
+          "quantidade": 0
+        },
+        {
+          "sabor": "Granny Cherry",
+          "quantidade": 2
+        },
+        {
+          "sabor": "Grape Ice",
+          "quantidade": 0
+        },
+        {
+          "sabor": "Green Mango",
+          "quantidade": 4
+        },
+        {
+          "sabor": "Mango Berry",
+          "quantidade": 2
+        },
+        {
+          "sabor": "Matcha Mint Ice",
+          "quantidade": 2
+        },
+        {
+          "sabor": "Mixed Prunus",
+          "quantidade": 6
+        },
+        {
+          "sabor": "Mountain Mint",
+          "quantidade": 5
+        },
+        {
+          "sabor": "Orange Pine Nana Mango",
+          "quantidade": 3
+        },
+        {
+          "sabor": "Pineapple Lemon Watermelon",
+          "quantidade": 3
+        },
+        {
+          "sabor": "Rose Grape",
+          "quantidade": 0
+        },
+        {
+          "sabor": "SpearMint",
+          "quantidade": 3
+        },
+        {
+          "sabor": "Strawberry Cherry Lemon",
+          "quantidade": 2
+        },
+        {
+          "sabor": "Strawberry Grapefruit",
+          "quantidade": 2
+        },
+        {
+          "sabor": "Strawberry Smoothie",
+          "quantidade": 0
+        },
+        {
+          "sabor": "Watermelon Ice",
+          "quantidade": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bonanza Pods</title>
+    <link rel="icon" href="./assets/img/BONANZA PODS.png" />
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/contato.css" />
+  </head>
+  <body>
+    <div class="espacamento"></div>
+    <header class="cabecalho">
+      <h1 class="cabecalho-logo">
+        <a href="index.html">
+          <img
+            class="cabecalho__imagem"
+            src="./assets/img/BONANZA PODS.png"
+            alt="Bonanza Pods"
+          />
+        </a>
+      </h1>
+      <div class="cabecalho-lista">
+        <ul class="cabecalho__lista">
+          <li class="cabecalho__item">
+            <a class="cabecalho__item__link" href="index.html">Home</a>
+          </li>
+          <div class="cabecalho__item-produtos">
+            <li class="cabecalho__item cabecalho__item__produtos">
+              <input class="produtos-celular" type="checkbox" id="menu" />
+              <label for="menu">
+                <a
+                  class="cabecalho__item__link"
+                  href="produtos.html"
+                  id="link-produtos"
+                  >Produtos</a
+                >
+              </label>
+              <ul class="lista-produtos invisivel">
+                <li class="lista-produtos__item">
+                  <a href="produtos.html#ignite">Linha Ignite</a>
+                </li>
+                <li class="lista-produtos__item">
+                  <a href="produtos.html#elfbar">Linha Elfbar</a>
+                </li>
+                <li class="lista-produtos__item">
+                  <a href="produtos.html#oxbar">Linha Oxbar</a>
+                </li>
+                <li class="lista-produtos__item">
+                  <a href="produtos.html#lost">Linha Lost Mary</a>
+                </li>
+              </ul>
+            </li>
+          </div>
+          <li class="cabecalho__item">
+            <a class="cabecalho__item__link" href="contato.html">FAQ</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main class="faq">
+      <br /><br /><br /><br />
+      <h2 class="titulo">
+        FAQ <br class="titulo__espaco" />
+        <span>(Perguntas Frequentes)</span>
+      </h2>
+      <p class="descricao">Aqui você pode tirar qualquer dúvida :)</p>
+
+      <ul class="lista-faq">
+        <li class="lista-faq__item">
+          <img
+            src="assets/img/sinal-de-interrogacao.png"
+            alt="Ponto de Interrogação"
+            class="lista-faq__item__imagem"
+          />
+          <a class="lista-faq__item__link" href="#pergunta-1-2"
+            >Quanto tempo demora para chegar?</a
+          >
+        </li>
+        <li class="lista-faq__item">
+          <img
+            src="assets/img/sinal-de-interrogacao.png"
+            alt="Ponto de Interrogação"
+            class="lista-faq__item__imagem"
+          />
+          <a class="lista-faq__item__link" href="#pergunta-1-2"
+            >Quais são os meios de pagamento?</a
+          >
+        </li>
+        <li class="lista-faq__item">
+          <img
+            src="assets/img/sinal-de-interrogacao.png"
+            alt="Ponto de Interrogação"
+            class="lista-faq__item__imagem"
+          />
+          <a class="lista-faq__item__link" href="#pergunta-3"
+            >Os produtos são originais?</a
+          >
+        </li>
+        <li class="lista-faq__item">
+          <img
+            src="assets/img/sinal-de-interrogacao.png"
+            alt="Ponto de Interrogação"
+            class="lista-faq__item__imagem"
+          />
+          <a class="lista-faq__item__link" href="#pergunta-4"
+            >Como funciona o sistema de fidelidade?</a
+          >
+        </li>
+      </ul>
+      <div id="perguntas-1-2"></div>
+      <section class="perguntas-1">
+        <div class="perguntas-1__card">
+          <img
+            class="perguntas-1__card__imagem"
+            src="assets/img/entrega-rapida.png"
+            alt="Entregador"
+          />
+
+          <h3 class="perguntas-1__card__titulo">
+            Quanto tempo demora para chegar?
+          </h3>
+          <p class="perguntas-1__card__descricao">
+            O envio é imediato após a confirmação do pagamento, o tempo varia
+            conforme a localização do cliente.
+          </p>
+        </div>
+        <div class="linha-vertical"></div>
+        <div class="linha-horizontal-1"></div>
+
+        <div class="perguntas-1__card">
+          <img
+            class="perguntas-1__card__imagem"
+            src="assets/img/cartoes-de-credito.png"
+            alt="Cartão de Crédito"
+          />
+          <h3 class="perguntas-1__card__titulo">
+            Quais são os meios de pagamento?
+          </h3>
+          <p class="perguntas-1__card__descricao">
+            O cliente pode optar por PIX ou Cartão de Crédito, conforme sua
+            preferência. Nota físicas não são aceitas.
+          </p>
+        </div>
+      </section>
+      <div class="linha-horizontal"></div>
+      <div id="pergunta-3"></div>
+      <section class="perguntas-3">
+        <h3 class="perguntas-3__titulo">Os produtos são Originais?</h3>
+
+        <h4 class="autenticidade__subtitulo">
+          Como saber se os Pods da Bonanza Pods são originais
+        </h4>
+        <div class="perguntas-3__qr">
+          <p class="autenticidade__descricao-1">
+            <span>1.</span> TODA caixa possuí um QR Code na sua lateral ou
+            traseira com um código tampado - o QR Code pode ou não possuir uma
+            área tampada
+          </p>
+          <img
+            class="autenticidade__imagem-1"
+            src="assets/img/qrcode.jpeg"
+            alt="Caixa Ignite mostrando local do QR Code"
+          />
+        </div>
+        <hr />
+        <div class="perguntas-3__qr-tampado">
+          <div class="autenticidade__imagens-2">
+            <img
+              class="autenticidade__imagem-2"
+              src="assets/img/qrcode-tampado.jpeg"
+              alt="QR Code destampado"
+            />
+            <img
+              class="autenticidade__imagem-2"
+              src="assets/img/qrcode-destampado.jpeg"
+              alt="QR Code destampado"
+            />
+          </div>
+          <p class="autenticidade__descricao-2">
+            <span>2.</span> (CASO POSSUIR ÁREA TAMPADA) Essa área deve ser
+            raspada - um código será revelado
+          </p>
+        </div>
+        <hr />
+        <div class="perguntas-3__verificar">
+          <div class="autenticidade__descricoes-3">
+            <p class="autenticidade__descricao-3">
+              <span>3.</span> Independente do seu pod - IGNITE, ELFBAR, OXBAR ou
+              LOST MARY
+            </p>
+            <br />
+            <p class="autenticidade__descricao-3">
+              Todos possuem um verificador de produtos em seus sites oficiais
+            </p>
+            <br />
+            <p class="autenticidade__descricao-3">
+              (elfbar.com, ignite.co, oxbar.com, www.lostmary.com)
+            </p>
+          </div>
+          <img
+            class="autenticidade__imagem-3"
+            src="assets/img/verificar.jpeg"
+            alt="Verificar"
+          />
+        </div>
+        <hr />
+        <div class="perguntas-3__verificado">
+          <img
+            class="autenticidade__imagem-4"
+            src="assets/img/verificado.jpeg"
+            alt="Verificado"
+          />
+          <p class="autenticidade__descricao-4">
+            <span>4.</span> Caso se trate de um produto original, uma mensagem
+            positiva será exibida :)
+          </p>
+        </div>
+        <hr />
+        <p class="autenticidade__original">
+          A Bonanza Pods só trabalha com produtos originais.
+        </p>
+        <img
+          class="autenticidade__original__imagem"
+          src="assets/img/autenticidade.png"
+          alt="Autenticidade"
+        />
+      </section>
+      <div class="linha-horizontal"></div>
+      <div id="pergunta-4"></div>
+      <section class="perguntas-4">
+        <h3 class="perguntas-4__titulo">
+          Como funciona o Sistema de Fidelidade?
+        </h3>
+        <img
+          class="perguntas-4__imagem"
+          src="assets/img/fidelidade.jpeg"
+          alt="Retrata o Sistema de Fidelidade da bonanza, com 10 selos sendo um já tampado"
+        />
+        <p class="perguntas-4__descricao">
+          - Cada Pod comprado representa um selo.
+          <br class="titulo__espaco" />(Dois pods em um pedido = Dois selos)
+        </p>
+        <ul class="perguntas-4__lista">
+          <li class="perguntas-4__lista__item">
+            <img
+              class="perguntas-4__lista__item__imagem"
+              src="assets/img/estrela.png"
+              alt="Estrela"
+            />
+            <p>O pedido que preencher o 3º selo terá frete grátis</p>
+          </li>
+          <li class="perguntas-4__lista__item">
+            <img
+              class="perguntas-4__lista__item__imagem"
+              src="assets/img/estrela.png"
+              alt="Estrela"
+            />
+            <p>O pedido que preencher o 7º selo terá frete grátis</p>
+          </li>
+          <li
+            class="perguntas-4__lista__item perguntas-3__lista__item-especial"
+          >
+            <img
+              class="perguntas-4__lista__item__imagem"
+              src="assets/img/estrela.png"
+              alt="Estrela"
+            />
+            <p>O pedido que preencher o 10º selo terá cobrado apenas o frete</p>
+          </li>
+          <p class="perguntas-4__lista__paragrafo">
+            (O POD FREE deve ser UM dentre os seguintes: Elfbar 4000, Elfbar
+            TE5000, Oxbar 8000, Lost Mary 10000)
+          </p>
+        </ul>
+      </section>
+      <div class="linha-horizontal"></div>
+      <section class="whatsapp">
+        <h3 class="whatsapp__titulo">Ainda resta alguma dúvida?</h3>
+        <div class="whatsapp__div">
+          <img
+            class="whatsapp__imagem"
+            src="assets/img/whatsapp.png"
+            alt="Whatsapp"
+          />
+          <a
+            target="_blank"
+            class="whatsapp__botao"
+            href="https://api.whatsapp.com/send/?phone=5585997037910&text=Oi%21+Preciso+de+suporte.&type=phone_number&app_absent=0"
+            >Suporte via Whatsapp</a
+          >
+        </div>
+      </section>
+    </main>
+    <footer class="rodape">
+      <img
+        src="./assets/img/BONANZA PODS.png"
+        alt="Bonanza Pods"
+        class="rodape__logo"
+      />
+      <p class="rodape__texto rodape__texto__especial">&copy; Bonanza Pods</p>
+      <p class="rodape__texto">2024 - Todos os direitos reservados.</p>
+      <div class="rodape__contato">
+        <div class="rodape__contato__email">
+          <img
+            class="contato__email-imagem"
+            src="assets/img/email.png"
+            alt="E-mail"
+          />
+          <p class="contato__email-texto">smk.bonanza@gmail.com</p>
+        </div>
+        <div class="sociais">
+          <a
+            target="_blank"
+            href="https://wa.me/5585997037910?text=Oi!%20Venho%20do%20site%20de%20voc%C3%AAs!"
+          >
+            <img
+              class="contato__whats-imagem"
+              src="assets/img/whatsapp.png"
+              alt="Whatsapp"
+            />
+          </a>
+          <a target="_blank" href="https://www.instagram.com/bonanza.pods/">
+            <img
+              class="contato__insta-imagem"
+              src="assets/img/instagram.png"
+              alt="Instagram"
+            />
+          </a>
+        </div>
+      </div>
+      <div class="rodape__disclaimer">
+        <img
+          src="./assets/img/limite-de-idade.png"
+          alt=""
+          class="rodape__disclaimer-imagem"
+        />
+        <p class="rodape__disclaimer-texto">
+          A venda para menores de 18 anos é estritamente proibida.
+        </p>
+      </div>
+    </footer>
+    <script src="js/menu.js"></script>
+  </body>
+</html>

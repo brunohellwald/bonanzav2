@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bonanza Pods - Ignite V80</title>
+    <link rel="icon" href="../img/BONANZA PODS.png" />
+    <link rel="stylesheet" href="../../styles/reset.css" />
+    <link rel="stylesheet" href="../../styles/style.css" />
+    <link rel="stylesheet" href="../../styles/pagina_produto.css" />
+    <script src="https://unpkg.com/axios@0.21.4/dist/axios.min.js"></script>
+    <script src="../../js/api.js" defer></script>
+  </head>
+  <body>
+    <div class="espacamento"></div>
+    <header class="cabecalho">
+      <h1 class="cabecalho-logo">
+        <a href="../../index.html">
+          <img
+            class="cabecalho__imagem"
+            src="../img/BONANZA PODS.png"
+            alt="Bonanza Pods"
+          />
+        </a>
+      </h1>
+      <div class="cabecalho-lista">
+        <ul class="cabecalho__lista">
+          <li class="cabecalho__item">
+            <a class="cabecalho__item__link" href="../../index.html">Home</a>
+          </li>
+          <div class="cabecalho__item-produtos">
+            <li class="cabecalho__item cabecalho__item__produtos">
+              <input class="produtos-celular" type="checkbox" id="menu" />
+              <label for="menu">
+                <a
+                  class="cabecalho__item__link"
+                  href="../../produtos.html"
+                  id="link-produtos"
+                  >Produtos</a
+                >
+              </label>
+              <ul class="lista-produtos invisivel">
+                <li class="lista-produtos__item">
+                  <a href="../../produtos.html#ignite">Linha Ignite</a>
+                </li>
+                <li class="lista-produtos__item">
+                  <a href="../../produtos.html#elfbar">Linha Elfbar</a>
+                </li>
+                <li class="lista-produtos__item">
+                  <a href="../../produtos.html#oxbar">Linha Oxbar</a>
+                </li>
+                <li class="lista-produtos__item">
+                  <a href="../../produtos.html#lost">Linha Lost Mary</a>
+                </li>
+              </ul>
+            </li>
+          </div>
+          <li class="cabecalho__item">
+            <a class="cabecalho__item__link" href="../../contato.html">FAQ</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <br /><br /><br /><br />
+
+      <section class="produto">
+        <img
+          class="produto__imagem"
+          src="../img/ignitev80-2.jpg"
+          alt="Imagem Ignite 8000 puffs"
+        />
+        <div class="informacoes">
+          <h2 class="produto__titulo">
+            <span class="fonte-ignite">Ignite V80</span>
+          </h2>
+          <p class="produto__preco">R$ 89,90</p>
+          <select name="sabores" class="sabores">
+            <!-- <option value="1">Banana Cherry</option>
+            <option value="2">Banana Ice</option>
+            <option value="3">Blueberry Ice</option>
+            <option value="4">Blueberry Lemon</option>
+            <option value="5">Cactus</option>
+            <option value="6">Grape Ice</option>
+            <option value="7">GrapeFruit Mint</option>
+            <option value="8">Green Apple</option>
+            <option value="9">Icy Mint</option>
+            <option value="10">Menthol</option>
+            <option value="11">Passion Fruit Sour Kiwi</option>
+            <option value="12">Strawberry Ice</option>
+            <option value="13">Strawberry Kiwi</option>
+            <option value="14">Tobacco</option>
+            <option value="15">Watermelon Ice</option> -->
+          </select>
+          <a class="produto__botao" href="">Comprar agora</a>
+          <ul class="lista__pagamento">
+            <p>Formas de pagamento:</p>
+            <li class="item__pagamento">
+              <img
+                class="imagem__pagamento"
+                src="../img/pix.webp"
+                alt="Pix icone"
+              />PIX
+            </li>
+            <li class="item__pagamento">
+              <img
+                class="imagem__pagamento"
+                src="../img/cartao-de-credito.png"
+                alt="Cartão de crédito icone"
+              />Cartão de Crédito
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="rodape">
+      <img
+        src="../img/BONANZA PODS.png"
+        alt="Bonanza Pods"
+        class="rodape__logo"
+      />
+      <p class="rodape__texto rodape__texto__especial">&copy; Bonanza Pods</p>
+      <p class="rodape__texto">2024 - Todos os direitos reservados.</p>
+      <div class="rodape__contato">
+        <div class="rodape__contato__email">
+          <img
+            class="contato__email-imagem"
+            src="../img/email.png"
+            alt="E-mail"
+          />
+          <p class="contato__email-texto">smk.bonanza@gmail.com</p>
+        </div>
+        <div class="sociais">
+          <a
+            target="_blank"
+            href="https://wa.me/5585997037910?text=Oi!%20Venho%20do%20site%20de%20voc%C3%AAs!"
+          >
+            <img
+              class="contato__whats-imagem"
+              src="../img/whatsapp.png"
+              alt="Whatsapp"
+            />
+          </a>
+          <a target="_blank" href="https://www.instagram.com/bonanza.pods/">
+            <img
+              class="contato__insta-imagem"
+              src="../img/instagram.png"
+              alt="Instagram"
+            />
+          </a>
+        </div>
+      </div>
+      <div class="rodape__disclaimer">
+        <img
+          src="../img/limite-de-idade.png"
+          alt=""
+          class="rodape__disclaimer-imagem"
+        />
+        <p class="rodape__disclaimer-texto">
+          A venda para menores de 18 anos é estritamente proibida.
+        </p>
+      </div>
+    </footer>
+    <script src="../../js/main.js"></script>
+    <script src="../../js/menu.js"></script>
+  </body>
+</html>

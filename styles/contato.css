@@ -1,0 +1,519 @@
+.titulo {
+  font-size: 3rem;
+  text-align: center;
+  font-family: "Krona One", sans-serif;
+  margin-top: 3rem;
+}
+
+.titulo__espaco {
+  display: none;
+}
+.descricao {
+  font-size: 0.8rem;
+  color: #c2c2c2;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 3%;
+}
+
+.lista-faq {
+  text-align: center;
+  margin-left: 10%;
+  margin-bottom: 5%;
+}
+
+.lista-faq__item__imagem {
+  width: 1%;
+}
+
+.lista-faq__item__link {
+  color: #333237;
+  font-style: italic;
+  transition: 0.5s;
+}
+
+.lista-faq__item__link:hover {
+  color: #8c8a96;
+}
+.lista-faq__item {
+  display: flex;
+  align-items: center;
+  gap: 0.33%;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 1%;
+}
+
+.perguntas-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10%;
+  margin-bottom: 5%;
+}
+
+.linha-vertical {
+  height: 25rem; /*Altura da linha*/
+  border-left: 2px solid; /* Adiciona borda esquerda na div como ser fosse uma linha.*/
+}
+
+.linha-horizontal {
+  margin: 0 auto;
+  width: 80vw;
+  border-bottom: 2px solid;
+}
+
+.linha-horizontal-1 {
+  display: none;
+}
+
+.perguntas-1__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  padding: 3%;
+  border: 1px solid #000000;
+  border-radius: 30px;
+  box-shadow: 3px 3px 5px #000000;
+}
+
+.perguntas-1__card__imagem {
+  width: 30%;
+  margin-bottom: 5%;
+}
+
+.perguntas-1__card__titulo,
+.perguntas-2__titulo,
+.perguntas-3__titulo,
+.perguntas-4__titulo {
+  font-family: "New Amsterdam";
+  font-size: 2.3rem;
+  color: #333237;
+}
+
+.perguntas-1__card__titulo {
+  margin-bottom: 2.5%;
+}
+
+.perguntas-3__titulo {
+  text-align: center;
+  margin-top: 5%;
+}
+
+.autenticidade__subtitulo {
+  font-size: 1.2rem;
+  margin-top: 1%;
+  font-style: italic;
+}
+
+.perguntas-3__qr,
+.perguntas-3__qr-tampado,
+.perguntas-3__verificar,
+.perguntas-3__verificado {
+  display: flex;
+  margin: 4% 0;
+  align-items: center;
+  justify-content: center;
+  gap: 8%;
+}
+
+.perguntas-3 {
+  text-align: center;
+  font-family: "Open Sans";
+}
+
+.autenticidade__descricao-1 {
+  width: 25%;
+  line-height: 1.5;
+}
+
+.autenticidade__descricao-1 span {
+  font-weight: bold;
+}
+
+.autenticidade__imagem-1 {
+  width: 15%;
+}
+
+.autenticidade__descricao-2 {
+  width: 25%;
+  line-height: 1.5;
+}
+
+.autenticidade__descricao-2 span {
+  font-weight: bold;
+}
+
+.autenticidade__imagens-2 {
+  display: flex;
+  align-items: center;
+  gap: 10%;
+  flex-direction: column;
+  width: fit-content;
+  width: 25rem;
+}
+
+.autenticidade__imagem-2 {
+  width: 100%;
+}
+
+.autenticidade__imagem-2:nth-child(1) {
+  margin-bottom: 3%;
+}
+
+.autenticidade__descricoes-3 {
+  width: 20rem;
+}
+.autenticidade__descricao-3 {
+  width: 100%;
+  line-height: 1.5;
+}
+
+.autenticidade__descricao-3:last-child {
+  font-style: italic;
+}
+
+.autenticidade__descricao-3 span {
+  font-weight: bold;
+}
+
+.autenticidade__imagem-3 {
+  width: 40%;
+  border: 4px solid #000000;
+  border-radius: 1rem;
+}
+
+.autenticidade__descricao-4 {
+  width: 25%;
+  line-height: 1.5;
+}
+
+.autenticidade__descricao-4 span {
+  font-weight: bold;
+}
+
+.autenticidade__imagem-4 {
+  width: 40%;
+  border: 4px solid #000000;
+  border-radius: 1rem;
+}
+
+.autenticidade__original {
+  font-size: 1.2rem;
+  font-style: italic;
+  margin-top: 4%;
+  margin-bottom: 1.5%;
+}
+
+.autenticidade__original__imagem {
+  width: 5%;
+  margin-bottom: 5%;
+}
+
+.perguntas-4__titulo {
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 3%;
+}
+
+.perguntas-1__card__descricao {
+  text-align: justify;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.1rem;
+  color: #fb8351;
+  width: 70%;
+}
+
+.perguntas-4 {
+  text-align: center;
+  margin-bottom: 5%;
+}
+.perguntas-4__imagem {
+  width: 40%;
+  border: 1px solid;
+  margin-bottom: 0.5%;
+}
+
+.perguntas-4__descricao {
+  font-size: 1rem;
+  color: #fb8351;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-style: italic;
+  margin-bottom: 1.5%;
+}
+
+.perguntas-4__lista {
+  font-size: 1.2rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+.perguntas-4 li {
+  margin-bottom: 0.5%;
+}
+
+.perguntas-4__lista__item-especial {
+  margin-bottom: 0;
+}
+.perguntas-4__lista__paragrafo {
+  font-size: 0.7rem;
+  color: #ce2340;
+  font-weight: bold;
+}
+
+.perguntas-4__lista__item__imagem {
+  width: 1%;
+}
+
+.perguntas-4__lista__item {
+  display: flex;
+  align-items: center;
+  gap: 0.5%;
+  justify-content: center;
+}
+
+.whatsapp {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.whatsapp__titulo {
+  text-align: center;
+  font-family: "Montserrat";
+  font-size: 1.3rem;
+  color: #333237;
+  margin-bottom: 1%;
+}
+.whatsapp__div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1%;
+}
+
+.whatsapp__imagem {
+  width: 5%;
+}
+
+.whatsapp__botao {
+  background-color: #15eb5b;
+  color: #fefefe;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  border-radius: 30px;
+  padding: 1%;
+  transition: 0.5s;
+}
+
+.whatsapp__botao:hover {
+  background-color: #1ac954;
+}
+@media screen and (max-width: 480px) {
+  .espacamento {
+    margin-bottom: 20%;
+  }
+
+  .faq {
+    margin: 0 5%;
+  }
+
+  .titulo span {
+    font-size: 1.5rem;
+  }
+
+  .titulo__espaco {
+    display: block;
+  }
+
+  .lista-faq {
+    margin-bottom: 20%;
+  }
+  .lista-faq__item__imagem {
+    width: 3%;
+  }
+
+  .linha-vertical {
+    display: none;
+  }
+
+  .linha-horizontal-1 {
+    display: block;
+    margin: 0 auto;
+    width: 80vw;
+    border-bottom: 2px solid;
+  }
+
+  /* espaçamento */
+
+  .perguntas-1__card:nth-child(1),
+  .perguntas-1__card:nth-child(2n),
+  .autenticidade__original__imagem,
+  .perguntas-4 {
+    margin-bottom: 20%;
+  }
+
+  .perguntas-1__card:nth-child(2n),
+  .perguntas-3__titulo,
+  .perguntas-4__titulo {
+    margin-top: 20%;
+  }
+
+  /* espaçamento */
+
+  .perguntas-1 {
+    flex-direction: column;
+    margin: 0;
+  }
+  .perguntas-1__card {
+    width: 88%;
+  }
+  .perguntas-1__card__titulo {
+    text-align: center;
+  }
+
+  .autenticidade__descricao-1 {
+    width: 70%;
+  }
+
+  .autenticidade__imagem-1 {
+    width: 30%;
+  }
+
+  .autenticidade__descricao-2 {
+    width: 65%;
+  }
+
+  .autenticidade__imagens-2 {
+    width: 20rem;
+  }
+
+  .perguntas-3__verificar {
+    flex-direction: column;
+  }
+
+  .autenticidade__imagem-3 {
+    width: 70%;
+  }
+
+  .autenticidade__descricao-3:last-child {
+    margin-bottom: 5%;
+  }
+
+  .perguntas-3__verificado {
+    flex-direction: column;
+  }
+
+  .autenticidade__imagem-4 {
+    width: 70%;
+    order: 1;
+  }
+
+  .autenticidade__descricao-4 {
+    width: 80%;
+    margin-bottom: 5%;
+  }
+
+  .autenticidade__original__imagem {
+    width: 8%;
+  }
+
+  .perguntas-4__imagem {
+    width: 100%;
+  }
+
+  .perguntas-4__lista__item {
+    gap: 1.5%;
+    padding-bottom: 3%;
+  }
+
+  .perguntas-4__lista__item:nth-child(3) {
+    padding-bottom: 0.5%;
+  }
+
+  .perguntas-4__lista__item__imagem {
+    width: 3.5%;
+  }
+  .perguntas-4__descricao {
+    font-size: 0.8rem;
+  }
+  .perguntas-4__lista__item p {
+    font-size: 0.93rem;
+  }
+
+  .whatsapp {
+    margin: 20% 0;
+  }
+
+  .whatsapp__imagem {
+    width: 7%;
+  }
+  .whatsapp__botao {
+    padding: 2.2%;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 850px) {
+  .autenticidade__original__imagem,
+  .perguntas-4 {
+    margin-bottom: 15%;
+  }
+
+  .perguntas-3__titulo,
+  .perguntas-4__titulo {
+    margin-top: 10%;
+  }
+
+  .whatsapp {
+    margin: 10% 0;
+  }
+
+  .titulo__espaco {
+    display: block;
+  }
+
+  .faq {
+    margin: 0 5%;
+  }
+
+  .lista-faq__item__imagem {
+    width: 1.8%;
+  }
+
+  .titulo span {
+    font-size: 2rem;
+  }
+
+  .perguntas-1__card__titulo {
+    text-align: center;
+  }
+
+  .perguntas-1__card {
+    width: 45%;
+  }
+
+  .perguntas-4__imagem {
+    width: 70%;
+  }
+  .perguntas-4__lista__item__imagem {
+    width: 2.5%;
+  }
+
+  .perguntas-4__lista__item {
+    gap: 1.5%;
+    padding-bottom: 1.9%;
+  }
+
+  .perguntas-4__lista__item:nth-child(3) {
+    padding-bottom: 0.5%;
+  }
+
+  .perguntas-1 {
+    gap: 5%;
+  }
+
+  .perguntas-1__card__descricao {
+    text-align: center;
+  }
+}

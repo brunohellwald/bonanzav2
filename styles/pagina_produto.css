@@ -1,0 +1,141 @@
+.espacamento {
+  display: none;
+}
+.produto {
+  display: flex;
+}
+
+.produto__imagem {
+  height: 30vw;
+  border: 2px solid black;
+  margin: 5% 10%;
+  padding: 2%;
+  border-radius: 10%;
+}
+
+.informacoes {
+  margin-top: 10%;
+}
+
+.produto__titulo {
+  font-weight: bold;
+  font-family: "Montserrat";
+  font-size: 2.5rem;
+  margin-bottom: 5%;
+}
+
+.produto__titulo__lost {
+  font-size: calc(2.5rem - 20%);
+}
+
+.produto__preco {
+  color: green;
+  font-family: "montserrat";
+  font-style: italic;
+  font-size: 1.75rem;
+  margin-bottom: 13%;
+}
+
+.sabores {
+  margin-bottom: 15%;
+  padding: 5%;
+  border-radius: 5px;
+  background-color: var(--azul-4);
+  color: var(--azul-2);
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  border: 2px solid #010101;
+}
+
+.produto__botao {
+  text-decoration: none;
+  font-family: "Montserrat";
+  background-color: green;
+  color: greenyellow;
+  padding: 3%;
+  border-radius: 10px;
+  transition: 0.5s;
+  white-space: nowrap;
+}
+
+.produto__botao:hover {
+  background-color: greenyellow;
+  color: green;
+  transform: scale(1.1);
+}
+.lista__pagamento {
+  margin-top: 14%;
+  font-family: "Open Sans";
+}
+
+.lista__pagamento p {
+  margin-bottom: 1.5%;
+  font-size: 0.85rem;
+}
+.imagem__pagamento {
+  height: 1.7vw;
+}
+.item__pagamento {
+  font-size: 0.75rem;
+  display: flex;
+  align-items: center;
+  gap: 3%;
+  font-style: italic;
+  margin-bottom: 1.5%;
+}
+
+@media screen and (max-width: 480px) {
+  .produto {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .produto__imagem {
+    width: 70%;
+    height: 95%;
+    margin-top: 20rem;
+
+    /* margin: 5% 10%; */
+  }
+
+  .informacoes {
+    margin-top: 7.5%;
+    margin-bottom: 10%;
+  }
+  .imagem__pagamento {
+    height: 4.5vw;
+  }
+  .item__pagamento {
+    justify-content: center;
+    gap: 1.5%;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .espacamento {
+    display: block;
+    margin-bottom: 20%;
+  }
+
+  .produto {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .produto__imagem {
+    width: 70%;
+    height: 95%;
+    margin: 5% 10%;
+  }
+
+  .informacoes {
+    margin-top: 7.5%;
+    margin-bottom: 10%;
+  }
+
+  .sabores {
+    width: 70%;
+  }
+}

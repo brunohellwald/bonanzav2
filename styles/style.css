@@ -1,0 +1,561 @@
+@import url("https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap");
+
+@font-face {
+  font-family: "Good Times";
+  src: url(../assets/font/good_times/good\ times\ rg.otf);
+}
+
+@font-face {
+  font-family: "Champagne";
+  src: url(../assets/font/champagne_limousines/Champagne\ &\ Limousines\ Bold.ttf);
+}
+
+@font-face {
+  font-family: "Nevan";
+  src: url(../assets/font/nevan/Nevan.ttf);
+}
+
+@font-face {
+  font-family: "Request";
+  src: url(../assets/font/request/Request.otf);
+}
+
+@font-face {
+  font-family: "Campana";
+  src: url(../assets/font/campana_script/CampanaScript_PERSONAL_USE_ONLY.otf);
+}
+:root {
+  --azul-4: #0077b6;
+  --azul-3: #00b4d8;
+  --azul-2: #90e0ef;
+  --azul-1: #caf0f8;
+}
+
+.fonte-ignite {
+  font-family: "Good Times";
+}
+
+.fonte-elfbar {
+  font-family: "Champagne";
+}
+
+.fonte-oxbar {
+  font-family: "Nevan";
+}
+
+.fonte-lost {
+  font-family: "Request";
+}
+
+main {
+  box-sizing: border-box;
+}
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--azul-3);
+  padding: 0 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.cabecalho-logo {
+  margin-left: 20%;
+}
+
+.cabecalho__imagem {
+  width: 35%;
+}
+
+.cabecalho-lista {
+  margin-right: 20%;
+}
+.cabecalho__lista {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 25%;
+}
+
+.cabecalho__item__link {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: var(--azul-1);
+  font-family: "Montserrat", sans-serif;
+  transition: 0.3s color;
+}
+
+.cabecalho__item__link:hover {
+  color: var(--azul-2);
+}
+
+.lista-produtos {
+  background-color: var(--azul-3);
+  text-align: center;
+  font-family: "New Amsterdam";
+  font-size: 1.5rem;
+  border: 1px solid var(--azul-4);
+  width: 10%;
+  position: absolute;
+  top: 100%;
+  right: 18%;
+}
+
+.lista-produtos__item {
+  padding: 0.5%;
+  padding: 5%;
+  border-bottom: 1px solid var(--azul-4);
+}
+
+.produtos-celular {
+  display: none;
+}
+
+.lista-produtos__item a {
+  text-decoration: none;
+  color: var(--azul-1);
+  transition: 1s;
+}
+
+.lista-produtos__item a:hover {
+  text-decoration: underline;
+  color: #eaf4f7;
+}
+.lista-produtos__item:last-child {
+  margin-bottom: 0;
+  border-bottom: 0;
+}
+.cabecalho__item-produtos {
+  height: 5.1875rem;
+}
+
+.cabecalho__item__produtos {
+  margin-top: 27%;
+}
+
+.visivel {
+  display: block;
+}
+
+.invisivel {
+  display: none;
+}
+.rodape {
+  background-color: var(--azul-4);
+  padding: 1% 0;
+  text-align: center;
+}
+
+.rodape__texto {
+  text-align: center;
+  color: var(--azul-1);
+  font-size: 0.875rem;
+  margin-bottom: 0.75%;
+  font-family: "Montserrat", sans-serif;
+}
+
+.rodape__texto__especial {
+  margin-bottom: 0.75%;
+}
+
+.rodape__logo {
+  width: 8%;
+}
+
+.rodape {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.rodape__contato {
+  margin-bottom: 1.25%;
+}
+
+.rodape__contato__email {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.2%;
+}
+
+.contato__email-imagem {
+  width: 2%;
+}
+
+.contato__whats-imagem,
+.contato__insta-imagem {
+  width: 2%;
+}
+
+.contato__whats-imagem {
+  margin-right: 1%;
+}
+
+.contato__email-texto {
+  color: var(--azul-1);
+  font-size: 0.8rem;
+  font-family: "Montserrat";
+  margin-bottom: 0.5%;
+}
+
+.sociais a {
+  text-decoration: none;
+}
+.rodape__disclaimer {
+  display: flex;
+  align-items: center;
+}
+.rodape__disclaimer-imagem {
+  height: 5vh;
+}
+
+.rodape__disclaimer-texto {
+  font-size: 0.9rem;
+  font-family: "Montserrat";
+  font-style: italic;
+  color: rgb(254, 176, 176);
+}
+
+/* CSS sobre o corpo da home*/
+.vantagem {
+  padding-bottom: 5%;
+}
+
+.banner-titulo {
+  background-image: url("../assets/img/banner.avif");
+  padding-top: 10%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-bottom: 1px solid #000000;
+  margin-bottom: 4%;
+  margin-top: 5%;
+}
+.vantagem__titulo {
+  font-size: 6rem;
+  text-align: center;
+  font-weight: 500;
+  font-family: "Campana";
+  color: #000000;
+  height: 20rem;
+}
+.vantagem__itens {
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+  align-items: flex-start;
+}
+
+.vantagem__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 25%;
+  font-family: "Open Sans", sans-serif;
+  border-radius: 15%;
+  padding: 2% 0;
+  box-shadow: 2px 2px 7px #000000;
+}
+
+.vantagem__imagem {
+  width: 25%;
+}
+
+.vantagem__item__titulo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 0.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.vantagem__descricao {
+  width: 70%;
+  height: 5rem;
+}
+.sobre {
+  padding: 5% 0;
+  padding-left: 12%;
+  background-color: #edecec;
+}
+.sobre__titulo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: "Open Sans";
+  margin-bottom: 2rem;
+}
+
+.sobre__descricao {
+  font-family: "Open Sans";
+  line-height: 1.5;
+  font-size: 1.5rem;
+  text-align: justify;
+  width: 50vw;
+}
+
+.vitrine {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5%;
+  padding: 2% 0;
+  background-color: #faf0e6;
+}
+
+.vitrine__descricao {
+  width: 15%;
+  font-family: "New Amsterdam";
+  display: flex;
+  flex-direction: column;
+  gap: 10%;
+}
+.vitrine__titulo {
+  font-size: 3rem;
+  width: 70%;
+}
+
+.vitrine__botao {
+  text-decoration: none;
+  text-align: center;
+  font-size: 1.5rem;
+  color: #ffffff;
+  background-color: var(--azul-3);
+  padding: 5%;
+  border-radius: 30px;
+  margin-top: 10%;
+}
+.vitrine__imagens {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  gap: 3%;
+}
+.vitrine-imagem {
+  width: 40%;
+}
+
+.recomendacoes {
+  padding: 5% 0;
+}
+
+.recomendacoes__titulo {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  margin-bottom: 4%;
+}
+
+.citacoes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.citacao {
+  background-color: #019dbd;
+  border: 2px solid var(--azul-4);
+  padding: 1.5%;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.citacao-especial {
+  margin-bottom: 5%;
+}
+
+.citacao__texto {
+  color: var(--azul-2);
+  font-size: 1rem;
+  line-height: 1.25;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 2.5%;
+}
+
+.citacao__nome {
+  color: var(--azul-1);
+  font-size: 1.15rem;
+  font-family: "Montserrat", sans-serif;
+  font-style: italic;
+}
+
+@media screen and (max-width: 480px) {
+  .cabecalho {
+    flex-direction: column;
+  }
+  .cabecalho-logo {
+    margin: 0;
+    width: 45%;
+    text-align: center;
+    margin-top: 1.5%;
+  }
+
+  .cabecalho__imagem {
+    width: 50%;
+    text-align: center;
+  }
+
+  .cabecalho-lista {
+    width: 80%;
+    box-sizing: border-box;
+    margin: 0;
+  }
+
+  .cabecalho-lista a {
+    font-size: 1rem;
+  }
+
+  .cabecalho__lista {
+    width: 80%;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+  }
+
+  .cabecalho__item-produtos {
+    height: 3.5rem;
+  }
+
+  .lista-produtos {
+    width: 30%;
+    right: 32%;
+  }
+
+  .rodape__logo {
+    width: 20%;
+  }
+
+  .rodape__texto:nth-child(3) {
+    margin-bottom: 3.5%;
+  }
+
+  .rodape__disclaimer-texto {
+    font-size: 0.7rem;
+  }
+
+  .rodape__disclaimer-imagem {
+    height: 3vh;
+  }
+
+  .contato__email-imagem {
+    width: 3.5%;
+  }
+
+  .contato__whats-imagem,
+  .contato__insta-imagem {
+    width: 3.5%;
+  }
+
+  .contato__email-texto {
+    margin-bottom: 2%;
+  }
+
+  /* pagina */
+
+  .banner-titulo {
+    margin-top: 34%;
+    padding-top: 15%;
+    height: 8rem;
+    background-position: bottom 30% left 50%;
+  }
+  .vantagem__titulo {
+    font-size: 3rem;
+  }
+
+  .vantagem__itens {
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .vantagem__item {
+    width: 85%;
+    border-radius: 35px;
+    margin-left: 8%;
+  }
+
+  .vantagem__item__baixo {
+    margin-bottom: 7%;
+  }
+
+  .vantagem__item__topo {
+    margin-top: 7%;
+  }
+
+  .vantagem__descricao {
+    width: 80%;
+    height: 4rem;
+  }
+
+  .sobre__titulo {
+    font-size: 1.3rem;
+  }
+
+  .sobre__descricao {
+    font-size: 1rem;
+    width: 80%;
+  }
+
+  .vitrine {
+    flex-direction: column;
+  }
+
+  .vitrine__descricao {
+    width: 100%;
+  }
+  .vitrine__titulo {
+    font-size: 2.8rem;
+    width: auto;
+    text-align: center;
+    margin-top: 3%;
+  }
+
+  .vitrine__botao {
+    margin: 5% 0;
+    width: 75%;
+    font-size: 1.7rem;
+    padding: 3% 5%;
+    margin-left: 7.5%;
+  }
+
+  .vitrine__imagens {
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 3%;
+  }
+
+  .citacoes {
+    flex-wrap: wrap;
+  }
+  .citacao {
+    width: 40%;
+    margin-bottom: 5%;
+  }
+  .citacao__texto {
+    font-size: 0.85rem;
+    margin-bottom: 15%;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 850px) {
+  .lista-produtos {
+    width: 23%;
+    right: 14%;
+  }
+
+  .vantagem__descricao {
+    width: 80%;
+  }
+
+  .vitrine__descricao {
+    width: 30%;
+  }
+  .vantagem__item {
+    height: 14rem;
+    border-radius: 40px;
+  }
+}
