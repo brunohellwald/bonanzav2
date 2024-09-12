@@ -474,6 +474,7 @@ main {
 
   .vantagem__item {
     width: 85%;
+    height: 14rem;
     border-radius: 35px;
     margin-left: 8%;
   }
